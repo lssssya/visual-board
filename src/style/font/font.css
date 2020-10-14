@@ -1,0 +1,63 @@
+/* 将两种字体切换成 Bender 粗体的加bold*/
+@font-face {
+  font-family: 'AgencyFB';
+  src: url('BenderRegular.ttf'), url('BenderRegular.eot');
+  /* src: url('AgencyFB.ttf'); */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AgencyFB-Bold';
+  src: url('BenderRegular.ttf'), url('BenderRegular.eot');
+  /* src: url('AgencyFB-Bold.otf'); */
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HeadlineA';
+  src: url('HeadlineA.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SegoeUIB';
+  src: url('SEGOEUIB.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SegoeUIL';
+  src: url('SEGOEUIL.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SegoeUISL';
+  src: url('SEGOEUISL.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BenderLigth';
+  src: url('BenderLight.woff.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bender';
+  src: url('BenderRegular.ttf'), url('BenderRegular.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DINAlternate-Bold';
+  src: url('DIN-Alternate-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN-Light';
+  src: url('DIN-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
