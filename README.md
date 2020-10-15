@@ -1,4 +1,4 @@
-# ed-EbKB 教育装备展看板项目
+# 可视化看板项目
 
 ## Project setup
 ```
