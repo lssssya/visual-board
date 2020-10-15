@@ -1,5 +1,8 @@
 // 类似于 mock 数据
-import videoDemo from '@/assets/video/demo.mp4'
+// import videoDemo from '@/assets/video/demo.mp4'
+// 这里项目没有把 video 资源上传 所以就随便写死一个 防止 import 报错
+// 实际是视频轮播
+const videoDemo = 'src'
 
 export default {
   videoList: [
