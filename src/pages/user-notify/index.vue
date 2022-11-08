@@ -5,8 +5,8 @@
       direction="right"
     />
     <transition-group
-      name="scorll"
-      class="scorll-wrap"
+      name="scroll"
+      class="scroll-wrap"
     >
       <div
         class="notify-list"
@@ -75,15 +75,15 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-// scorll
-.scorll-move {
+// scroll
+.scroll-move {
   transition: transform 1s;
 }
-.scorll-enter-active {
+.scroll-enter-active {
   animation-name: selfFadeInDown;
   animation-duration: 1s;
 }
-.scorll-leave-active {
+.scroll-leave-active {
   animation-name: selfFadeOut;
   animation-duration: 1s;
 }
@@ -93,7 +93,7 @@ export default {
   width: 456px;
   height: 330px;
   overflow: hidden;
-  .scorll-wrap {
+  .scroll-wrap {
     width: 100%;
     height: 304px;
     .notify-list {
